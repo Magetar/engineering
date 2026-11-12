@@ -1,0 +1,16 @@
+# Never sync private runtime state or local credentials
+.env
+.env.*
+!.env.example
+*.secrets.json
+*.pem
+*.p8
+*.p12
+*.jks
+*.keystore
+*credentials*.json
+*auth*.json
+*.log
+.DS_Store
+node_modules/
+artifacts/
