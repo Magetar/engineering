@@ -1,0 +1,8 @@
+# Review and merge into ~/.codex/config.toml manually.
+# Never commit auth tokens, provider keys, or private machine settings.
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+# Model choice and reasoning effort intentionally remain user-controlled.
+# Avoid a framework-wide pin before confirming your installed Codex version.
